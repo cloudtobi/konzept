@@ -41,6 +41,27 @@ figure, header, nav, section, article, aside, footer, figcaption {
   outline: 0;
 }
 
+.highlighted-div {
+  position: fixed; /* Fixiert das DIV am Bildschirm */
+  bottom: 20px; /* Abstand vom unteren Rand (anpassbar) */
+  left: 50%; /* Zentriert das DIV horizontal */
+  transform: translateX(-50%); /* Korrigiert die Zentrierung */
+  background-color: rgba(248, 120, 1, 0.2); /* Halbtransparenter Hintergrund */
+  border: 2px solid #fc6701; /* Goldener Rahmen */
+  border-radius: 15px; /* Abgerundete Ecken */
+  padding: 20px; /* Innenabstand */
+  width: 550px; /* Breite des DIVs */
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.3); /* Schatteneffekt */
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Sanfte Animation */
+}
+
+.highlighted-div:hover {
+  transform: translateX(-50%) scale(1.05); /* Vergrößert das Element leicht beim Hover */
+  box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.5); /* Stärkerer Schatten beim Hover */
+}
+
+
+
 /* 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
 p.Grethink { 
