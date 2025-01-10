@@ -40,7 +40,7 @@
          $file_to_include = $allowed_pages[$page];
       } else {
          // Falls die Seite nicht erlaubt ist, zeige eine Fehlerseite an
-         $file_to_include = 'includes/404.php'; // Stelle sicher, dass du eine 404-Seite hast
+         $file_to_include = '404.php'; // Stelle sicher, dass du eine 404-Seite hast
       }
 
       // Binde die entsprechende Datei ein
