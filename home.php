@@ -1,4 +1,4 @@
-</div>
+
    <div class="background-video">
       <video autoplay muted loop>
          <source src="assets/video/hood.mp4" type="video/mp4">
@@ -21,3 +21,4 @@
       <img src="assets/images/mintv.png" alt="" style="max-width: 130px;">
    </div>
    </body>
+   </html>
