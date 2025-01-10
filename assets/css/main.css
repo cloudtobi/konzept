@@ -55,12 +55,11 @@ figure, header, nav, section, article, aside, footer, figcaption {
   transition: transform 0.3s ease, box-shadow 0.3s ease; /* Sanfte Animation */
 }
 
-.highlighted-div:hover {
+
+.highlighted-div2:hover {
   transform: translateX(-50%) scale(1.05); /* Vergrößert das Element leicht beim Hover */
   box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.5); /* Stärkerer Schatten beim Hover */
 }
-
-
 
 /* 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/

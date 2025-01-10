@@ -1,4 +1,4 @@
-
+</div>
    <div class="background-video">
       <video autoplay muted loop>
          <source src="assets/video/hood.mp4" type="video/mp4">
