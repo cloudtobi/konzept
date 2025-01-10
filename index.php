@@ -21,7 +21,6 @@
    <?php
 
    include "header.php";
-
       // Definiere eine Liste von erlaubten Seiten und ihren zugehörigen Dateien
       $allowed_pages = [
          'home' => 'home.php',
@@ -50,6 +49,8 @@
       } else {
          echo "Fehler: Datei $file_to_include existiert nicht.";
       }
+      include "footer.php";
+
 
 ?>
 
