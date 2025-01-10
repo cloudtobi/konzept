@@ -483,7 +483,7 @@ Header Style
 
 .header-area {
   position: relative;
-  background-color: #3a3a3a;
+  background-color: #5e1515;
   height: 100px;
   z-index: 100;
   -webkit-transition: all .5s ease 0s;
@@ -1402,14 +1402,10 @@ Footer Style
 --------------------------------------------- 
 */
 
-footer.footer-no-gap {
-  margin-top: 0px;
-}
 
 footer {
-  margin-top: 1530px;
+  margin-bottom: 1440px;
   background-color: #1e1e1e;
-  min-height: 100px;
 }
 
 footer p {
