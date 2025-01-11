@@ -68,6 +68,15 @@ p.Grethink {
   font-size: 100px;
   color: #fc6701;
   text-shadow: .1em .1em #080808;
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Sanfte Animation */
+
+}
+
+/* Hover-Effekt */
+p.Grethink:hover {
+  transform: scale(1.05); /* Vergrößert das Element leicht beim Hover */
+  color: #fc6701;
+  animation: none;
 }
 /* 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
