@@ -973,9 +973,11 @@ Footer Style
 */
 
 
-footer {
-  margin-bottom: 1440px;
+.footer {
+  text-align: center;
   background-color: #1e1e1e;
+  color: #fff;
+  padding: 20px 0;
 }
 
 footer p {
@@ -1034,9 +1036,6 @@ Page Header Style
   text-transform: uppercase;
   color: #fff;
 }
-
-
-
 
 .header-area .main-nav .nav li:last-child a i {
   background-color: #fc6701;
@@ -1124,43 +1123,6 @@ body {
   }
   .featured .info-table {
     margin-top: 45px;
-  }
-  .properties .item h6 {
-    text-align: center;
-    margin-bottom: 15px;
-  }
-  .properties .item .main-button {
-    text-align: center;
-  }
-  .properties .item ul li {
-    margin-right: 10px;
-    font-size: 13px;
-  }
-  .contact-content .phone {
-    margin-right: 0px;
-    margin-bottom: 20px;
-  }
-  .contact-content .email {
-    margin-left: 0px;
-    margin-bottom: 45px;
-  }
-  .contact-content #contact-form {
-    margin-left: 0px;
-  }
-  .single-property .info-table {
-    margin-left: 0px;
-    margin-top: 45px;
-  }
-  .contact-page .section-heading {
-    margin-right: 0px !important;
-  }
-  .contact-page #contact-form {
-    margin-left: 0px;
-    margin-top: 60px;
-  }
-  .best-deal .info-table ul li span {
-    float: right !important;
-    width: auto !important;
   }
 }
 
